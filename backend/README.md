@@ -1,4 +1,4 @@
-````html
+
 <!-- ========================= -->
 <!--      HEADER SECTION       -->
 <!-- ========================= -->
@@ -98,7 +98,7 @@ into a unified intelligent orchestration platform.
 
 # 🏗️ System Architecture
 
-```text
+
 User Request
       ↓
 FastAPI API Layer
@@ -118,7 +118,7 @@ Execution Context
 Response Synthesis Agent
       ↓
 Final AI Response
-````
+
 
 ---
 
@@ -159,7 +159,7 @@ Final AI Response
 
 # 📁 Project Structure
 
-```text
+
 app/
 │
 ├── agents/
@@ -179,7 +179,7 @@ app/
 ├── db/
 ├── core/
 └── utils/
-```
+
 
 ---
 
@@ -187,7 +187,7 @@ app/
 
 ## 📄 PDF → Summary → Audio
 
-```text
+
 PDF Upload
      ↓
 OCR
@@ -195,13 +195,13 @@ OCR
 Summary
      ↓
 TTS
-```
+
 
 ---
 
 ## 🌐 YouTube → Transcript → Summary
 
-```text
+
 YouTube URL
       ↓
 Audio Extraction
@@ -209,13 +209,12 @@ Audio Extraction
 Whisper
       ↓
 Summary
-```
+
 
 ---
 
 ## 🎬 AI Video Generation
 
-```text
 Prompt
    ↓
 Image Generation
@@ -223,13 +222,13 @@ Image Generation
 Narration Generation
    ↓
 Video Assembly
-```
+
 
 ---
 
 # 🌐 API Endpoint
 
-```http
+
 POST /execute
 ```
 
@@ -271,17 +270,17 @@ Add:
 
 ## 3️⃣ Start FastAPI Server
 
-```bash
+
 uvicorn app.main:app --reload
-```
+
 
 ---
 
 ## 4️⃣ Open Swagger Docs
 
-```text
+
 http://127.0.0.1:8000/docs
-```
+
 
 ---
 
