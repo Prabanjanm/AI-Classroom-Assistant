@@ -1,269 +1,321 @@
-en-IN-NeerjaNeural	Indian Female
-en-IN-PrabhatNeural	Indian Male
-en-US-JennyNeural	US Female
-en-US-GuyNeural	US Male
-ta-IN-PallaviNeural	Tamil Female
-hi-IN-SwaraNeural	Hindi Female
+````html
+<!-- ========================= -->
+<!--      HEADER SECTION       -->
+<!-- ========================= -->
 
-CATEGORY 2 — IMAGE UNDERSTANDING
-TEST 3 — IMAGE DESCRIPTION
+<div align="center">
 
-Upload:
+<img src="https://readme-typing-svg.herokuapp.com?font=Fira+Code&size=30&duration=3000&pause=1000&color=00F7FF&center=true&vCenter=true&width=900&lines=AI+Classroom+Assistant;Multimodal+Agentic+AI+Platform;RAG+%2B+OCR+%2B+Whisper+%2B+Video+Generation;Autonomous+Educational+AI+System" />
 
-image
+<br/>
+<br/>
 
-Request:
+<img src="https://img.shields.io/github/stars/Prabanjanm/AI-Classroom-Assistant?style=for-the-badge&color=yellow" />
+<img src="https://img.shields.io/github/forks/Prabanjanm/AI-Classroom-Assistant?style=for-the-badge&color=blue" />
+<img src="https://img.shields.io/github/license/Prabanjanm/AI-Classroom-Assistant?style=for-the-badge&color=green" />
+<img src="https://img.shields.io/github/repo-size/Prabanjanm/AI-Classroom-Assistant?style=for-the-badge&color=orange" />
 
-Describe this image
-EXPECTED FLOW
-ImageDescriptionAgent
-TEST 4 — IMAGE EMBEDDING
+<br/>
+<br/>
 
-Upload:
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=220&section=header&text=AI%20Classroom%20Assistant&fontSize=42&fontColor=ffffff&animation=fadeIn&fontAlignY=38" />
 
-image
+</div>
 
-Request:
+---
 
-Generate embedding for this image
-EXPECTED FLOW
-CLIPEmbeddingAgent
-CATEGORY 3 — AUDIO WORKFLOWS
-TEST 5 — AUDIO TRANSCRIPTION
+# 🚀 AI Classroom Assistant
 
-Upload:
+> ### 🧠 Multimodal Agentic AI Orchestration Platform
 
-mp3/wav
+AI Classroom Assistant is an advanced **Agentic AI system** capable of autonomously planning and executing multimodal AI workflows using specialized AI agents.
 
-Request:
+The platform combines:
 
-Transcribe this audio
-EXPECTED FLOW
-WhisperAgent
-TEST 6 — TTS
+- 🤖 AI Workflow Planning
+- 🧠 Retrieval-Augmented Generation (RAG)
+- 📄 OCR Pipelines
+- 🎤 Whisper Transcription
+- 🎨 AI Image Generation
+- 🔊 Text-To-Speech
+- 🎬 AI Video Generation
+- 🌐 YouTube Understanding
+- 💬 Conversational Response Synthesis
 
-Request:
+into a unified intelligent orchestration platform.
 
-Generate narration audio for:
-Artificial intelligence is transforming education
-EXPECTED FLOW
-TTSAgent
-CATEGORY 4 — RAG WORKFLOWS
-TEST 7 — RAG CHAT
+---
 
-Request:
+# ✨ Features
 
-Answer question:
-What is machine learning?
-EXPECTED FLOW
-RetrievalAgent
+<table>
+<tr>
+<td width="50%">
+
+### 🤖 Agentic AI
+- Autonomous workflow planning
+- Multi-agent execution
+- Dynamic dependency resolution
+- Workflow memory management
+
+</td>
+
+<td width="50%">
+
+### 🧠 Semantic RAG
+- Vector similarity search
+- Context-aware retrieval
+- Embedding pipelines
+- Educational QA system
+
+</td>
+</tr>
+
+<tr>
+<td width="50%">
+
+### 🎨 AI Content Generation
+- Image generation
+- Audio narration
+- AI video creation
+- Story visualization
+
+</td>
+
+<td width="50%">
+
+### 📚 Educational AI
+- Lecture summarization
+- PDF understanding
+- YouTube summarization
+- Intelligent tutoring workflows
+
+</td>
+</tr>
+</table>
+
+---
+
+# 🏗️ System Architecture
+
+```text
+User Request
       ↓
-RAGChatAgent
-TEST 8 — RAG INGESTION
+FastAPI API Layer
+      ↓
+Orchestrator Controller
+      ↓
+Planner Agent
+      ↓
+Workflow Generation
+      ↓
+Workflow Engine
+      ↓
+Agent Execution
+      ↓
+Execution Context
+      ↓
+Response Synthesis Agent
+      ↓
+Final AI Response
+````
 
-Upload:
+---
 
-PDF or image
+# 🤖 AI Agents
 
-Request:
+| Agent                    | Responsibility               |
+| ------------------------ | ---------------------------- |
+| Planner Agent            | AI workflow planning         |
+| Whisper Agent            | Speech-to-text transcription |
+| Summary Agent            | AI summarization             |
+| OCR Agent                | Text extraction              |
+| RAG Chat Agent           | Semantic question answering  |
+| Image Generation Agent   | AI image generation          |
+| TTS Agent                | Narration generation         |
+| Video Generation Agent   | AI video creation            |
+| YouTube Agent            | YouTube processing           |
+| Response Synthesis Agent | Conversational responses     |
 
-Store this document into rag system
-EXPECTED FLOW
+---
+
+# 🛠️ Tech Stack
+
+<div align="center">
+
+<img src="https://skillicons.dev/icons?i=python,fastapi,postgres,docker,git" />
+
+<br/>
+
+<img src="https://img.shields.io/badge/Gemini-AI-blueviolet?style=for-the-badge" />
+<img src="https://img.shields.io/badge/Whisper-STT-black?style=for-the-badge" />
+<img src="https://img.shields.io/badge/pgvector-VectorDB-success?style=for-the-badge" />
+<img src="https://img.shields.io/badge/StableDiffusion-ImageGen-orange?style=for-the-badge" />
+<img src="https://img.shields.io/badge/MoviePy-Video-red?style=for-the-badge" />
+
+</div>
+
+---
+
+# 📁 Project Structure
+
+```text
+app/
+│
+├── agents/
+│   ├── orchestrator/
+│   ├── whisper/
+│   ├── rag/
+│   ├── image/
+│   ├── tts/
+│   ├── video/
+│   ├── ocr/
+│   └── response/
+│
+├── controllers/
+├── routers/
+├── services/
+├── repositories/
+├── db/
+├── core/
+└── utils/
+```
+
+---
+
+# 🚀 Example Workflows
+
+## 📄 PDF → Summary → Audio
+
+```text
+PDF Upload
+     ↓
 OCR
- ↓
-Chunking
- ↓
-Embedding
- ↓
-Storage
-CATEGORY 5 — IMAGE GENERATION
-TEST 9 — TEXT TO IMAGE
-
-Request:
-
-Generate image of futuristic AI classroom
-EXPECTED FLOW
-ImageGenerationAgent
-CATEGORY 6 — VIDEO WORKFLOWS
-TEST 10 — VIDEO SUMMARY
-
-Upload:
-
-mp4 lecture
-
-Request:
-
-Summarize this lecture video
-EXPECTED FLOW
-VideoSummaryAgent
-     ↓
-Whisper
-     ↓
-Summary
-TEST 11 — YOUTUBE SUMMARY
-
-Request:
-
-Download and summarize this youtube lecture:
-https://youtube.com/...
-EXPECTED FLOW
-YouTubeAgent
-     ↓
-WhisperAgent
-     ↓
-SummaryAgent
-CATEGORY 7 — MULTI-AGENT COMBINATIONS
-TEST 12 — OCR + SUMMARY
-
-Upload:
-
-PDF
-
-Request:
-
-Extract text and summarize this pdf
-EXPECTED FLOW
-PDFOCRAgent
-      ↓
-SummaryAgent
-TEST 13 — OCR + RAG + QA
-
-Upload:
-
-PDF
-
-Request:
-
-Store this document and answer questions from it
-EXPECTED FLOW
-OCR
- ↓
-RAG Ingestion
- ↓
-Retrieval
- ↓
-RAG Chat
-TEST 14 — SUMMARY + TTS
-
-Request:
-
-Summarize lecture transcript and generate narration audio
-EXPECTED FLOW
-SummaryAgent
-     ↓
-TTSAgent
-TEST 15 — IMAGE → VIDEO PIPELINE
-
-Request:
-
-Generate educational video about solar system
-EXPECTED FLOW
-SummaryAgent
-      ↓
-ImageGenerationAgent
-      ↓
-TTSAgent
-      ↓
-VideoGenerationAgent
-CATEGORY 8 — AUTONOMOUS PLANNING
-TEST 16 — COMPLEX MULTIMODAL REQUEST
-
-Upload:
-
-lecture video
-
-Request:
-
-Summarize this lecture,
-generate narration audio,
-and create study material
-EXPECTED FLOW
-VideoSummary
      ↓
 Summary
      ↓
 TTS
-     ↓
-RAG
-TEST 17 — FULL AUTONOMOUS EDUCATIONAL PIPELINE
+```
 
-Request:
+---
 
-Create educational content about neural networks
-with images and narration
-EXPECTED FLOW
+## 🌐 YouTube → Transcript → Summary
+
+```text
+YouTube URL
+      ↓
+Audio Extraction
+      ↓
+Whisper
+      ↓
 Summary
+```
+
+---
+
+## 🎬 AI Video Generation
+
+```text
+Prompt
    ↓
 Image Generation
    ↓
-TTS
+Narration Generation
    ↓
-Video Generation
-CATEGORY 9 — FAILURE TESTS
+Video Assembly
+```
 
-VERY IMPORTANT.
+---
 
-TEST 18 — INVALID FILE TYPE
+# 🌐 API Endpoint
 
-Upload:
+```http
+POST /execute
+```
 
-random unsupported file
+Supports:
 
-Request:
+* User requests
+* File uploads
+* AI workflow execution
+* Multimodal processing
 
-Analyze this file
+---
 
-Expected:
+# 🚀 Running The Project
 
-planner fallback
-graceful error
-TEST 19 — EMPTY REQUEST
-{
-  "user_request": ""
-}
+## 1️⃣ Install Dependencies
 
-Expected:
+```bash
+pip install -r requirements.txt
+```
 
-validation error
-TEST 20 — NONEXISTENT WORKFLOW
-Teleport this file to Mars
+---
 
-Expected:
+## 2️⃣ Configure Environment Variables
 
-planner cannot map capabilities
-fallback response
-MOST IMPORTANT TEST
-TEST 21 — FULL AGENT CHAIN
+Create:
 
-Upload:
+```text
+.env
+```
 
-lecture PDF
+Add:
 
-Request:
+* Gemini API Key
+* Supabase Credentials
+* Database URL
+* OpenAI API Key
 
-Extract text,
-store into rag,
-summarize it,
-generate narration audio
-EXPECTED COMPLETE FLOW
-PDFOCRAgent
-      ↓
-RAGIngestionAgent
-      ↓
-SummaryAgent
-      ↓
-TTSAgent
-DEBUGGING RECOMMENDATION
+---
 
-In workflow engine add:
+## 3️⃣ Start FastAPI Server
 
-print(
-    f"Executing: "
-    f"{task['agent_name']}"
-)
+```bash
+uvicorn app.main:app --reload
+```
 
-and:
+---
 
-print("RESULT:", result)
+## 4️⃣ Open Swagger Docs
 
-This helps trace orchestration.
+```text
+http://127.0.0.1:8000/docs
+```
+
+---
+
+# 🔮 Future Improvements
+
+* Token budgeting
+* Hybrid retrieval
+* Multi-agent collaboration
+* Real-time streaming
+* Persistent memory
+* Dynamic model routing
+* Workflow visualization
+* Autonomous retry systems
+
+---
+
+# 🧪 Engineering Concepts Demonstrated
+
+* Agentic AI Systems
+* Workflow Orchestration
+* RAG Architecture
+* Semantic Retrieval
+* Multimodal AI
+* Context Propagation
+* AI Response Synthesis
+* Distributed AI Pipelines
+
+---
+
+<div align="center">
+
+## 🚀 Building the Future of Agentic AI Systems
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:203a43,100:2c5364&height=180&section=footer&animation=fadeIn" />
+
+</div>
+```
