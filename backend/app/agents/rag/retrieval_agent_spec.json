@@ -1,0 +1,16 @@
+{
+  "name": "retrieval_agent",
+  "description": "Retrieve semantic context",
+  "capabilities": [
+    "semantic_search",
+    "retrieval",
+    "rag_retrieval"
+  ],
+  "input_schema": {
+    "query": "string"
+  },
+  "output_schema": {
+    "success": "boolean",
+    "chunks": "array"
+  }
+}

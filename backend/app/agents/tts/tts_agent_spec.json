@@ -1,0 +1,17 @@
+{
+  "name": "tts_agent",
+  "description": "Generate speech audio from text",
+  "capabilities": [
+    "tts",
+    "audio_generation",
+    "speech_synthesis"
+  ],
+  "input_schema": {
+    "text": "string",
+    "voice": "string"
+  },
+  "output_schema": {
+    "success": "boolean",
+    "audio_url": "string"
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "name": "video_summary_agent",
+  "description": "Summarize lecture videos",
+  "capabilities": [
+    "video_summary",
+    "lecture_summary"
+  ],
+  "input_schema": {
+    "title": "string",
+    "video_path": "string"
+  },
+  "output_schema": {
+    "success": "boolean",
+    "summary": "string"
+  }
+}

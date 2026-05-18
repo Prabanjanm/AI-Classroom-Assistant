@@ -1,0 +1,16 @@
+{
+  "name": "image_generation_agent",
+  "description": "Generate images from prompts",
+  "capabilities": [
+    "image_generation",
+    "text_to_image"
+  ],
+  "input_schema": {
+    "prompt": "string",
+    "negative_prompt": "string"
+  },
+  "output_schema": {
+    "success": "boolean",
+    "image_url": "string"
+  }
+}

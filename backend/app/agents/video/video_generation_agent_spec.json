@@ -1,0 +1,16 @@
+{
+  "name": "video_generation_agent",
+  "description": "Generate video from images and audio",
+  "capabilities": [
+    "video_generation"
+  ],
+  "input_schema": {
+    "title": "string",
+    "image_paths": "array",
+    "audio_path": "string"
+  },
+  "output_schema": {
+    "success": "boolean",
+    "video_url": "string"
+  }
+}

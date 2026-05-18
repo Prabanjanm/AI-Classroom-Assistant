@@ -1,0 +1,15 @@
+{
+  "name": "youtube_agent",
+  "description": "Download YouTube audio",
+  "capabilities": [
+    "youtube_download",
+    "youtube_audio"
+  ],
+  "input_schema": {
+    "url": "string"
+  },
+  "output_schema": {
+    "title": "string",
+    "audio_path": "string"
+  }
+}

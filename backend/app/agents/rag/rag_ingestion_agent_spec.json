@@ -1,0 +1,15 @@
+{
+  "name": "rag_ingestion_agent",
+  "description": "Ingest content into RAG system",
+  "capabilities": [
+    "rag_ingestion",
+    "embedding_storage"
+  ],
+  "input_schema": {
+    "content_type": "string",
+    "source_id": "string"
+  },
+  "output_schema": {
+    "success": "boolean"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "name": "summary_agent",
+  "description": "Summarizes lecture transcripts",
+  "capabilities": [
+    "summarization",
+    "lecture_summary"
+  ],
+  "input_schema": {
+    "transcription_id": "string"
+  },
+  "output_schema": {
+    "summary": "string",
+    "summary_id": "string"
+  }
+}

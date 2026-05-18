@@ -1,0 +1,15 @@
+{
+  "name": "image_description_agent",
+  "description": "Describe image content",
+  "capabilities": [
+    "image_captioning",
+    "image_understanding"
+  ],
+  "input_schema": {
+    "image_path": "string"
+  },
+  "output_schema": {
+    "success": "boolean",
+    "description": "string"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "name": "pdf_ocr_agent",
+  "description": "Extract text from PDF documents",
+  "capabilities": [
+    "pdf_ocr",
+    "ocr",
+    "pdf_text_extraction"
+  ],
+  "input_schema": {
+    "pdf_path": "string",
+    "file_url": "string"
+  },
+  "output_schema": {
+    "success": "boolean",
+    "ocr_id": "string",
+    "extracted_text": "string"
+  }
+}

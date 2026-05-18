@@ -1,0 +1,16 @@
+{
+  "name": "whisper_agent",
+  "description": "Speech-to-text transcription agent",
+  "capabilities": [
+    "transcription",
+    "speech_to_text",
+    "audio_transcription"
+  ],
+  "input_schema": {
+    "audio_path": "string"
+  },
+  "output_schema": {
+    "success": "boolean",
+    "transcript": "string"
+  }
+}

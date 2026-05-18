@@ -1,0 +1,21 @@
+{
+  "name": "rag_chat_agent",
+  "description": ["Use ONLY for semantic search ",
+        "and answering questions from ",
+        "previously ingested documents ",
+        "or lecture knowledge base. ",
+        "Do NOT use for creative ",
+        "generation tasks."],
+  "capabilities": [
+    "semantic_search",
+    "document_qa",
+    "retrieval_augmented_generation"
+  ],
+  "input_schema": {
+    "question": "string"
+  },
+  "output_schema": {
+    "success": "boolean",
+    "answer": "string"
+  }
+}

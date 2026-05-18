@@ -1,0 +1,15 @@
+{
+  "name": "clip_embedding_agent",
+  "description": "Generate image embeddings",
+  "capabilities": [
+    "image_embedding",
+    "multimodal_embedding"
+  ],
+  "input_schema": {
+    "image_path": "string"
+  },
+  "output_schema": {
+    "success": "boolean",
+    "embedding": "array"
+  }
+}
